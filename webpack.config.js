@@ -5,9 +5,9 @@ const config = {
     entry: __dirname + '/js/index.jsx',
     devtool: 'eval-source-map',
     output:{
-        path: resolve('dist'),
-        filename: 'bundle.js',
-        publicPath: resolve('dist')
+        path: resolve('static/dist'),
+        filename: '[hash].bundle.js',
+        publicPath: resolve('static/dist')
     },
     resolve: {
         extensions: ['.js','.jsx','.css']

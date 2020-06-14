@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="85795448-93af-4d1a-a809-f046cbe59cb4" name="new agario">
-        <fileTransfer host="" port="22" privateKey="ls" accessType="SFTP" keyPair="true">
+      <webServer id="85795448-93af-4d1a-a809-f046cbe59cb4" name="new agario" url="http://54.213.206.148">
+        <fileTransfer host="54.213.206.148" port="22" privateKey="$USER_HOME$/.ssh/newAWS.pem" rootFolder="/home/ubuntu" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
